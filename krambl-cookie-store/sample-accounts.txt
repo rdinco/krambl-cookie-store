@@ -1,0 +1,9 @@
+KRAMBL SAMPLE USER ACCOUNTS
+
+ADMIN ACCOUNT
+Email: admin@krambl.test
+Password: Admin123!
+
+BUYER ACCOUNT
+Email: buyer@krambl.test
+Password: Buyer123!

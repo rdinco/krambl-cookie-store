@@ -1,0 +1,52 @@
+CHAPTER 6 - SOURCE CODE FILE GUIDE
+
+config.php
+Purpose: Starts the session and connects the website to MySQL using mysqli_connect().
+
+includes/functions.php
+Purpose: Contains simple reusable functions for login checking, cart counting, money display, and audit logging.
+
+index.php
+Purpose: Displays the homepage and featured products.
+
+register.php
+Purpose: Registers buyers and creates an email verification link.
+
+verify.php
+Purpose: Confirms the buyer's email account.
+
+login.php
+Purpose: Checks the user's email and password and starts a login session.
+
+logout.php
+Purpose: Ends the user's login session.
+
+store.php
+Purpose: Displays categorized products and provides a simple search function.
+
+cart.php
+Purpose: Adds products, updates quantities, removes products, and calculates the total.
+
+checkout.php
+Purpose: Collects and confirms the customer's delivery details.
+
+payment.php
+Purpose: Displays demo payment choices, saves the order, and reduces stock.
+
+about.php
+Purpose: Displays company and group-member information.
+
+admin/dashboard.php
+Purpose: Displays the seller dashboard.
+
+admin/users.php
+Purpose: Adds, edits, and deletes administrator accounts.
+
+admin/products.php
+Purpose: Adds, edits, deletes, prices, and updates product stocks.
+
+admin/inventory.php
+Purpose: Displays the remaining inventory report.
+
+admin/audit.php
+Purpose: Displays activities completed by logged-in users.
